@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".MainActivity"
+        android:orientation="vertical"
+>
+
+    <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="30dp"
+            android:text="Hello World!"
+            android:id="@+id/txtThread"
+            android:layout_margin="10dp"
+    />
+
+    <Button android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:text="Start Service"
+            android:textSize="24dp"
+            android:id="@+id/btnStart"
+            android:layout_margin="5dp"
+    />
+
+    <Button android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:text="Stop Service"
+            android:textSize="24dp"
+            android:id="@+id/btnStop"
+            android:layout_margin="5dp"
+    />
+
+    <Button android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:text="Bind Service"
+            android:textSize="24dp"
+            android:id="@+id/btnBind"
+            android:layout_margin="5dp"
+    />
+
+    <Button android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:text="Stop Unbind"
+            android:textSize="24dp"
+            android:id="@+id/btnUnBind"
+            android:layout_margin="5dp"
+    />
+
+    <Button android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:text="Get random number"
+            android:textSize="24dp"
+            android:id="@+id/btnGetRd"
+            android:layout_margin="5dp"
+    />
+
+    <Button android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:text="start music"
+            android:textSize="24dp"
+            android:id="@+id/btnStartMusic"
+            android:layout_margin="5dp"
+    />
+
+    <Button android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:text="Pause/play"
+            android:textSize="24dp"
+            android:id="@+id/btnPauseMusic"
+            android:layout_margin="5dp"
+    />
+
+    <Button android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:text="StopMusic"
+            android:textSize="24dp"
+            android:id="@+id/btnStopMusic"
+            android:layout_margin="5dp"
+    />
+
+
+
+</LinearLayout>
